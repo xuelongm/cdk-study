@@ -4,6 +4,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {CdkOverlayModule} from './cdk-overlay/cdk-overlay.module';
 import {CkdPortalModule} from './ckd-portal/ckd-portal.module';
 import {CdkPlatformModule} from './cdk-platform/cdk-platform.module';
+import {CdkScrollingModule} from './cdk-scrolling/cdk-scrolling.module';
 
 const appRoutes: Routes = [
   {
@@ -17,6 +18,10 @@ const appRoutes: Routes = [
   {
     path: 'platform',
     loadChildren: () => CdkPlatformModule
+  },
+  {
+    path: 'scrolling',
+    loadChildren: () => CdkScrollingModule
   }
 ];
 
