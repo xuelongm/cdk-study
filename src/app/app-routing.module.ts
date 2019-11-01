@@ -5,6 +5,7 @@ import {CdkOverlayModule} from './cdk-overlay/cdk-overlay.module';
 import {CkdPortalModule} from './ckd-portal/ckd-portal.module';
 import {CdkPlatformModule} from './cdk-platform/cdk-platform.module';
 import {CdkScrollingModule} from './cdk-scrolling/cdk-scrolling.module';
+import {CdkDropModule} from './cdk-drop/cdk-drop.module';
 
 const appRoutes: Routes = [
   {
@@ -22,6 +23,10 @@ const appRoutes: Routes = [
   {
     path: 'scrolling',
     loadChildren: () => CdkScrollingModule
+  },
+  {
+    path: 'dragDrop',
+    loadChildren: () => CdkDropModule
   }
 ];
 
