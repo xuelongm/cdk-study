@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './drop-drag-area.component.html',
   styleUrls: ['./drop-drag-area.component.scss']
 })
+// ceshi 
 export class DropDragAreaComponent implements OnInit {
 
   constructor() { }
